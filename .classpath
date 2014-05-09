@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="src" path="plugin/urlnormalizer-basic/src/java"/>
+	<classpathentry kind="src" path="plugin/urlnormalizer-pass/src/java"/>
+	<classpathentry kind="src" path="plugin/urlnormalizer-regex/src/java"/>
+	<classpathentry kind="src" path="plugin/urlfilter-automaton/src/java"/>
+	<classpathentry kind="src" path="plugin/urlfilter-domain/src/java"/>
+	<classpathentry kind="src" path="plugin/urlfilter-prefix/src/java"/>
+	<classpathentry kind="src" path="plugin/urlfilter-regex/src/java"/>
+	<classpathentry kind="src" path="plugin/urlfilter-suffix/src/java"/>
+	<classpathentry kind="src" path="plugin/urlfilter-validator/src/java"/>
+	<classpathentry kind="src" path="plugin/lib-regex-filter/src/java"/>
+	<classpathentry kind="src" path="plugin/scoring-link/src/java"/>
+	<classpathentry kind="src" path="plugin/scoring-opic/src/java"/>
+	<classpathentry kind="src" path="plugin/parse-html/src/java"/>
+	<classpathentry kind="src" path="plugin/parse-tika/src/java"/>
+	<classpathentry kind="src" path="plugin/lib-http/src/java"/>
+	<classpathentry kind="src" path="plugin/protocol-http/src/java"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

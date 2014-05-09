@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>encodingdetector.charset.min.confidence</name>
+		<value>1</value>
+		<description>A integer between 0-100 indicating minimum confidence
+			value
+			for charset auto-detection. Any negative value disables auto-detection.
+		</description>
+	</property>
+	<property>
+
+		<name>http.agent.name</name>
+
+		<value>*</value>
+
+	</property>
+
+	<property>
+
+		<name>http.accept.language</name>
+
+		<value>ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3</value>
+
+		<description>Value of the “Accept-Language” request header field.
+
+			This
+			allows selecting non-English language as default one to retrieve.
+
+			It
+			is a useful setting for search engines build for certain national
+			group.
+
+		</description>
+
+	</property>
+
+	<property>
+
+		<name>parser.character.encoding.default</name>
+
+		<value>utf-8</value>
+
+		<description>The character encoding to fall back to when no other
+			information
+
+			is available
+		</description>
+
+	</property>
+
+	<!-- <property>
+
+		<name>storage.data.store.class</name>
+
+		<value>org.apache.gora.sql.store.SqlStore</value>
+
+		<description>The Gora DataStore class for storing and retrieving data.
+
+			Currently the following stores are available: ….
+
+		</description>
+
+	</property> -->
+	<property>  
+        <name>storage.data.store.class</name>  
+        <value>org.apache.gora.hbase.store.HBaseStore</value>  
+        <description>The Gora DataStore class for storing and retrieving data.  
+            Currently the following stores are available: ….  
+        </description>  
+    </property>  
+
+	<property>
+		<name>plugin.folders</name>
+		<value>./plugin</value>
+		<description>Directories where nutch plugins are located. Each
+			element
+			may be a relative or absolute path. If absolute, it is used
+			as is. If
+			relative, it is searched for on the classpath.
+		</description>
+	</property>
+
+	<property>
+
+		<name>generate.batch.id</name>
+
+		<value>*</value>
+
+	</property>
+
+
+</configuration>
