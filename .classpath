@@ -23,21 +23,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="conf"/>
-	<classpathentry kind="src" path="plugin/urlnormalizer-basic/src/java"/>
-	<classpathentry kind="src" path="plugin/urlnormalizer-pass/src/java"/>
-	<classpathentry kind="src" path="plugin/urlnormalizer-regex/src/java"/>
-	<classpathentry kind="src" path="plugin/urlfilter-automaton/src/java"/>
-	<classpathentry kind="src" path="plugin/urlfilter-domain/src/java"/>
-	<classpathentry kind="src" path="plugin/urlfilter-prefix/src/java"/>
-	<classpathentry kind="src" path="plugin/urlfilter-regex/src/java"/>
-	<classpathentry kind="src" path="plugin/urlfilter-suffix/src/java"/>
-	<classpathentry kind="src" path="plugin/urlfilter-validator/src/java"/>
-	<classpathentry kind="src" path="plugin/lib-regex-filter/src/java"/>
-	<classpathentry kind="src" path="plugin/scoring-link/src/java"/>
-	<classpathentry kind="src" path="plugin/scoring-opic/src/java"/>
-	<classpathentry kind="src" path="plugin/parse-html/src/java"/>
-	<classpathentry kind="src" path="plugin/parse-tika/src/java"/>
-	<classpathentry kind="src" path="plugin/lib-http/src/java"/>
-	<classpathentry kind="src" path="plugin/protocol-http/src/java"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

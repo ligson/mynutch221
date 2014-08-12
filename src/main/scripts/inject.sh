@@ -1,6 +1,6 @@
 #!/bin/sh
        
-WORK_HOME=$(cd ../;pwd)
+WORK_HOME=/data/bigdata/mynutch221-0.0.1
 
 LIB_PATH=$WORK_HOME/conf
 RUN_JAVA=$JAVA_HOME/bin/java
@@ -10,4 +10,5 @@ for jar in `ls $WORK_HOME/lib/*.jar`
 done
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH'
-$RUN_JAVA -Dfile.encoding=UTF-8 -classpath $LIB_PATH com.boful.itools.ui.graphics.IToolsApp
+$RUN_JAVA -Dfile.encoding=UTF-8 -classpath $LIB_PATH  org.apache.nutch.crawl.InjectorJob $*
+

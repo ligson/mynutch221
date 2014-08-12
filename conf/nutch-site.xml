@@ -76,7 +76,7 @@
 
 	<property>
 		<name>plugin.folders</name>
-		<value>./plugin</value>
+		<value>/home/ligson/workspace/code/eclipse/code/eclipse/boful/mynutch221/plugin</value>
 		<description>Directories where nutch plugins are located. Each
 			element
 			may be a relative or absolute path. If absolute, it is used
