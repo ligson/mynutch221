@@ -53,7 +53,7 @@
 
 	</property>
 
-	<!-- <property>
+	<property>
 
 		<name>storage.data.store.class</name>
 
@@ -65,18 +65,18 @@
 
 		</description>
 
-	</property> -->
-	<property>  
+	</property>
+	<!-- <property>  
         <name>storage.data.store.class</name>  
         <value>org.apache.gora.hbase.store.HBaseStore</value>  
         <description>The Gora DataStore class for storing and retrieving data.  
             Currently the following stores are available: ….  
         </description>  
-    </property>  
+    </property>   -->
 
 	<property>
 		<name>plugin.folders</name>
-		<value>/home/ligson/workspace/code/eclipse/code/eclipse/boful/mynutch221/plugin</value>
+		<value>./plugin</value>
 		<description>Directories where nutch plugins are located. Each
 			element
 			may be a relative or absolute path. If absolute, it is used
